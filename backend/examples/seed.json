@@ -1,0 +1,15 @@
+{
+  "solicitantes": [
+    {"id": 1, "nombre": "Solicitante Uno", "correo": "solicitante1@example.test"},
+    {"id": 2, "nombre": "Solicitante Dos", "correo": "solicitante2@example.test"}
+  ],
+  "materias": [
+    {"id": 1, "nombre": "Programación"},
+    {"id": 2, "nombre": "Matemáticas"},
+    {"id": 3, "nombre": "Historia"}
+  ],
+  "estudiantes": [
+    {"id": 1, "nombre": "Estudiante Uno", "correo": "estudiante1@example.test", "materia_ids": [1, 2]},
+    {"id": 2, "nombre": "Estudiante Dos", "correo": "estudiante2@example.test", "materia_ids": [2]}
+  ]
+}

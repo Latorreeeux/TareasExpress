@@ -1,0 +1,28 @@
+# Herramientas y artefactos locales de OpenSpec y SDD Kit
+.agents/
+openspec/
+.openspec/
+sdd/
+sdd-kit/
+.sdd-kit/
+sddkit/
+.sddkit/
+
+# Python y datos locales
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+.coverage
+htmlcov/
